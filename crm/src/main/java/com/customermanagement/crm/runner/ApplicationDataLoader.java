@@ -5,7 +5,7 @@ import com.customermanagement.crm.repository.ContactRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class ApplicationDataLoader implements CommandLineRunner {
 
     private final ContactRepository contactRepository;
